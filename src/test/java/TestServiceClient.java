@@ -1,4 +1,3 @@
-import com.api_ninjas.BreedItem;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -6,8 +5,6 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
-
-import java.util.Properties;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
